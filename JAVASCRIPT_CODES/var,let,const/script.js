@@ -22,8 +22,30 @@
 // console.log(greeting);
 // 재할당은 가능
 
-const greeting = 'hello';
-console.log(greeting);
+// const greeting = 'hello';
+// console.log(greeting);
 
-const greeting = 'hi';
-console.log(greeting);
+// const greeting = 'hi';
+// console.log(greeting);
+
+// 유효한 참조 범위
+// var => 함수 레벨 스코프
+// function func() {
+//   if (true) {
+//     var a = 'a';
+//     console.log(a);
+//   }
+//   console.log(a);
+// }
+// console.log(a);
+// func();
+
+// let, const => block 레벨 스코프
+function func() {
+  if (true) {
+    const a = 'a';
+    console.log(a);
+  }
+  console.log(a); // let, const => block 레벨 스코프이므로 a is not defined
+}
+func();
