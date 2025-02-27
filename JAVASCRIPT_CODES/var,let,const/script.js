@@ -41,11 +41,25 @@
 // func();
 
 // let, const => block 레벨 스코프
-function func() {
-  if (true) {
-    const a = 'a';
-    console.log(a);
-  }
-  console.log(a); // let, const => block 레벨 스코프이므로 a is not defined
-}
+// function func() {
+//   if (true) {
+//     const a = 'a';
+//     console.log(a);
+//   }
+//   console.log(a); // let, const => block 레벨 스코프이므로 a is not defined
+// }
+// func();
+
+// console.log(greeting);
+
+// var greeting = 'hello';
+// // undefined
+
+// let greeting = 'hello';
+// Cannot access 'greeting' before initialization
+
 func();
+
+function func() {
+  console.log('hoisting test');
+}
