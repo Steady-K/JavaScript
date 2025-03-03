@@ -20,7 +20,7 @@
 
 // greeting = 'hi';
 // console.log(greeting);
-// 재할당은 가능
+// // 재할당은 가능
 
 // const greeting = 'hello';
 // console.log(greeting);
@@ -52,14 +52,14 @@
 
 // console.log(greeting);
 
-// var greeting = 'hello';
+// // var greeting = 'hello';
 // // undefined
 
 // let greeting = 'hello';
 // Cannot access 'greeting' before initialization
 
-func();
+// func();
 
-function func() {
-  console.log('hoisting test');
-}
+// function func() {
+//   console.log('hoisting test');
+// }
