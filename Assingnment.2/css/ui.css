@@ -1,7 +1,7 @@
 @import url(reset.css);
 
 body {
-  background-color: rgb(209, 82, 82);
+  background-color: rgb(236, 237, 231);
 }
 
 .title {
@@ -54,6 +54,11 @@ body {
   align-items: right;
 }
 
+.result p {
+  font-size: 40px;
+  font-style: normal;
+}
+
 .btn-container {
   display: flex;
   flex-direction: column;
@@ -90,4 +95,10 @@ body {
   background-color: #c5975f;
   height: 4px;
   margin: 0 auto;
+}
+
+.img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
 }

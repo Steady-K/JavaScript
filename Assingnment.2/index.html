@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/ui.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <title>안내면 진거 가위바위보!</title>
   </head>
   <body>
@@ -16,7 +17,7 @@
 
     <section class="player-score">
       <div class="user-zone">
-        <img src="" alt="#" class="img" />
+        <img src="img/paper.png" alt="#" class="img" id="user-choice-img" />
         <div class="user">
           <h4>유저</h4>
           <p id="user-score">0</p>
@@ -24,12 +25,11 @@
       </div>
 
       <div class="result">
-        <div>결과</div>
-        <p>메세지</p>
+        <p id="message">게임을 시작하세요!</p>
       </div>
 
       <div class="computer-zone">
-        <img src="" alt="#" class="img" />
+        <img src="img/paper.png" alt="#" class="img" id="computer-choice-img" />
         <div class="computer">
           <h4>컴퓨터</h4>
           <p id="computer-score">0</p>
@@ -39,7 +39,7 @@
 
     <section class="btn-container">
       <div class="restart-btn">
-        <button id="restart">재시작</button>
+        <button id="restart-btn">재시작</button>
       </div>
       <div class="choice-btn">
         <button id="scissors">가위</button>
