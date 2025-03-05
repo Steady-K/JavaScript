@@ -1,0 +1,93 @@
+@import url(reset.css);
+
+body {
+  background-color: rgb(209, 82, 82);
+}
+
+.title {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.title h2 {
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 4px;
+  color: rgb(11, 10, 10);
+  line-height: 1.2;
+}
+
+.underline {
+  width: 20%;
+  background-color: #e3ddd6;
+  height: 4px;
+  margin: 0 auto;
+}
+
+.player-score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.user-zone,
+.computer-zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+}
+.user-zone h4,
+.user-zone p,
+.computer-zone h4,
+.computer-zone p {
+  margin-bottom: 30px;
+}
+.user-zone {
+  align-items: left;
+}
+
+.computer-zone {
+  align-items: right;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-size: 40px;
+}
+
+.btn-container button {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 4rem;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.btn-container button:hover {
+  background-color: #dad9d7e2;
+}
+
+.restart-btn {
+  margin-bottom: 30px;
+}
+
+.choice-btn {
+  display: flex;
+  gap: 40px;
+}
+
+.underline {
+  width: 20%;
+  background-color: #c5975f;
+  height: 4px;
+  margin: 0 auto;
+}

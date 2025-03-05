@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/ui.css" />
+    <title>안내면 진거 가위바위보!</title>
+  </head>
+  <body>
+    <div class="game">
+      <header class="title">
+        <h2>가위 바위 보</h2>
+        <div class="underline"></div>
+      </header>
+    </div>
+
+    <section class="player-score">
+      <div class="user-zone">
+        <img src="" alt="#" class="img" />
+        <div class="user">
+          <h4>유저</h4>
+          <p id="user-score">0</p>
+        </div>
+      </div>
+
+      <div class="result">
+        <div>결과</div>
+        <p>메세지</p>
+      </div>
+
+      <div class="computer-zone">
+        <img src="" alt="#" class="img" />
+        <div class="computer">
+          <h4>컴퓨터</h4>
+          <p id="computer-score">0</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="btn-container">
+      <div class="restart-btn">
+        <button id="restart">재시작</button>
+      </div>
+      <div class="choice-btn">
+        <button id="rock">바위</button>
+        <button id="scissors">가위</button>
+        <button id="paper">보</button>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
