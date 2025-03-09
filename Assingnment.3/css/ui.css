@@ -1,0 +1,48 @@
+@import url(reset.css);
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+  transition: background-color 0.5cs ease;
+}
+
+.quiz-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #f0f0f0;
+}
+.correct {
+  background-color: #4caf50;
+  color: white;
+}
+.incorrect {
+  background-color: #f44336;
+  color: white;
+}
+#quiz-next-btn {
+  display: none;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
