@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ede0d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-radius: 10px;
+}
+
+.container {
+  background-color: rgb(199, 224, 231);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 34px;
+  color: #333;
+}
+
+.resultContainer {
+  margin-bottom: 20px;
+}
+
+#result {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #004085;
+}
+
+.settings {
+  margin-bottom: 20px;
+}
+
+.setting {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.setting label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.setting input[type='number'],
+.setting input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+#clipBoard {
+  margin-left: 10px;
+  background-color: #28a745;
+}
+
+#clipBoard:hover {
+  background-color: #218838;
+}
+
+#clipBoard:active {
+  background-color: #1e7e34;
+}

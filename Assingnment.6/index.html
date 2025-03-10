@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>비밀번호 생성기</title>
+    <link rel="stylesheet" href="css/ui.css" />
+  </head>
+  <body>
+    <div class="container">
+        <h2>비밀번호 생성기!</h2>
+        <div class="resultContainer">
+            <span id="result"></span>
+            <button class="btn" id="clipBoard">클립보드</button>
+        </div>
+        <div class="settings">
+            <div class="setting">
+                <label for="setLen">Length</label>
+                <input type="number" id="setLen">
+            </div>
+            <div class="setting">
+                <label>
+                    <span><input type="checkbox" id="numbers">Numbers(0-9)</span>
+                </label>
+            </div>
+            <div class="setting">
+                <label>
+                    <span><input type="checkbox" id="lowercase">Small Letters</span>
+                </label>
+            </div>
+            <div class="setting">
+                <label>
+                    <span><input type="checkbox" id="uppercase">Capital Letters</span>
+                </label>
+            </div>
+            <div class="setting">
+                <label>
+                    <span><input type="checkbox" id="symbols">Symbols(@,!,#,$,&,%)</span>
+                </label>
+            </div>
+        </div>
+        <div class="button">
+            <button id="creBtn">생성하기</button>
+        </div>
+    </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
