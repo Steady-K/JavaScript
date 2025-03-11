@@ -83,7 +83,6 @@ function createTodoElement(item) {
   removeBtnEl.classList.add('material-icons', 'remove-btn');
   removeBtnEl.innerText = 'remove_circle';
 
-  // ✅ 체크박스 이벤트 (완료 여부 변경)
   checkboxEl.addEventListener('change', () => {
     item.complete = checkboxEl.checked;
 
